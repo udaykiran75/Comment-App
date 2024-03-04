@@ -1,0 +1,170 @@
+@media (max-width: 576px) {
+  .bg-container {
+    padding: 10%;
+  }
+  .heading {
+    font-family: Roboto;
+    font-size: 30px;
+    color: #1e293b;
+  }
+  .question {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #475569;
+  }
+  .commant-image {
+    height: 200px;
+    width: 250px;
+  }
+  .inputElement {
+    padding: 7px;
+    padding-left: 14px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  .content-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .textareaElement {
+    height: 150px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Roboto;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  .button {
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: #0284c7;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 140px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 15px;
+  }
+  .horizantal-line {
+    color: #dee0e3;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 5%;
+  }
+  .heading {
+    font-family: Roboto;
+    font-size: 50px;
+    color: #1e293b;
+  }
+  .question {
+    font-family: Roboto;
+    font-size: 28px;
+    color: #475569;
+  }
+  .inputElement {
+    padding: 8px;
+    padding-left: 14px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 95%;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  .commant-image {
+    width: 300px;
+    height: 340px;
+    order: 2;
+  }
+  .image-and-content-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .textareaElement {
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Roboto;
+    margin-bottom: 15px;
+    width: 95%;
+    outline: none;
+  }
+  .button {
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: #0284c7;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 140px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 15px;
+  }
+  .horizantal-line {
+    color: #dee0e3;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .commant-image {
+    width: 370px;
+  }
+  .textareaElement {
+    width: 100%;
+    outline: none;
+  }
+  .inputElement {
+    width: 100%;
+    outline: none;
+  }
+}
+.total-comands {
+  background-color: #0284c7;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-right: 4px;
+}
+.count-comands {
+  font-family: Roboto;
+  font-size: 20px;
+}
+.listItem-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
